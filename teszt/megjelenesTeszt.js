@@ -28,7 +28,7 @@ function kosarMegjelenitTeszt() {
       \nVárt: ${vartSzoveg[i]}`
     );
   }
-  console.log("A teszt sikeresen lefutott.");
+  console.log("A teszt sikeresen lefutott. (kosarMegjelenit)");
 }
 kosarMegjelenitTeszt();
 
@@ -51,5 +51,6 @@ function kosarGombMegjelenitTeszt() {
     `Nem sikerült kiirna a kosárba gombot.
     `
   );
+  console.log("A teszt sikeresen lefutott. (kosarGombMegjelenes)");
 }
 kosarGombMegjelenitTeszt();

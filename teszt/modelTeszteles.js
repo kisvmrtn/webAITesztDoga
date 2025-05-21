@@ -17,7 +17,7 @@ function removeKosarItemTeszt() {
     `Nem sikerült eltávolítani a kosarElemet
     \nKosár lista: ${JSON.stringify(tesztModel.getKosarLista())}`
   );
-  console.log("A teszt sikeresen lefutott.");
+  console.log("A teszt sikeresen lefutott. (removeKosar)");
 }
 removeKosarItemTeszt();
 
@@ -41,7 +41,7 @@ function decreaseQuantityMennyCsokkTeszt() {
   \n Kosárban lévő mennyiség: ${tesztModel.getKosarLista()[0].mennyiseg}
   \n Várt mennyiség: ${1}`
   );
-  console.log("Sikeresen lefutott a teszt.");
+  console.log("Sikeresen lefutott a teszt. (decreaseMennyCsokk)");
 }
 decreaseQuantityMennyCsokkTeszt();
 
@@ -62,7 +62,7 @@ function decreaseQuantityTorlesTeszt() {
     `Nem sikerült törölnie a terméket a kosárból.
     \nKosár darabszám: ${tesztModel.getKosarDarabszam()}`
   );
-  console.log("Sikeresen lefutott a teszt.");
+  console.log("Sikeresen lefutott a teszt. (decreaseTorles)");
 }
 decreaseQuantityTorlesTeszt();
 
